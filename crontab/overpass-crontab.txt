@@ -1,4 +1,4 @@
 # m  h dom mon dow command
-# @reboot          /opt/overpass/bin/startup.sh
-  0 20   *   *   * /opt/overpass/bin/single_pass_area_updater.sh
-  0  2   *   *   1 /opt/overpass/bin/backup.sh
+# @reboot          /opt/op/bin/startup.sh
+  0 20   *   *   * /opt/op/bin/single_pass_area_updater.sh
+  0  2   *   *   1 /opt/op/bin/backup.sh

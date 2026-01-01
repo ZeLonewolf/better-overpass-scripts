@@ -10,7 +10,7 @@ EXEC_DIR="/opt/op/bin"
 DB_DIR="/opt/op/db"
 DIFF_DIR="/opt/op/diff"
 LOG_DIR="/opt/op/log"
-BACKUP_DEST="/media/all/usb-drive/db"
+BACKUP_DEST="/opt/op/backup"
 
 # Process definitions (must match startup.sh and shutdown.sh)
 declare -A PROCESSES=(
